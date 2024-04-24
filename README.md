@@ -8,6 +8,8 @@ ESP32 Dev Module: Acts as the central processing unit.
 DHT22 Sensor: Measures temperature and humidity.
 Water Flow Sensor: Monitors water flow and calculates water usage.
 Additional Supplies: Wokwi to stimulates.
+
+
 System Setup
 Hardware Setup
 Connect the DHT22 sensor to the ESP32:
@@ -18,6 +20,8 @@ Connect the water flow sensor to the ESP32:
 Connect the VCC to 5V.
 Connect GND to GND.
 Connect the signal/output pin to a different predefined GPIO.
+
+
 Software Setup
 Flash the provided code to the ESP32 using the Arduino IDE or similar platform.
 Ensure your ESP32 board definitions and libraries are up to date.
